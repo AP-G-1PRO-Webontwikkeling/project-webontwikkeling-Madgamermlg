@@ -1,68 +1,68 @@
 [
-{
-    "id":"RESONANCE-001",
-    "name":"Celestial",
-    "effect":"Crafty swordsmen who can use any type of elemental magic.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Celestial.png"
-},
-{
-    "id":"RESONANCE-002",
-    "name":"Fire",
-    "effect":"The power of fire burns within this persons heart. Mostly given to someone with a fiery passion.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Fire.png"
-},
-{
-    "id":"RESONANCE-003",
-    "name":"Lightning",
-    "effect":"Users who bear the Lightning resonance are mostly laid back but full of energy.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Lightning.png"
-},
-{
-    "id":"RESONANCE-004",
-    "name":"Water",
-    "effect":"Bearers of the element most found across the world, but mastering it is a different tale.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/5220e9e61fca08a9f8a35d7df02d0df95766c96b/Water.png"
-},
-{
-    "id":"RESONANCE-005",
-    "name":"Poison",
-    "effect":"A most fitting trait for the toxic personalities amongs ourselves,one hit from this magic can be lethal.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Poison.png"
-},
-{
-    "id":"RESONANCE-006",
-    "name":"Earth",
-    "effect":"Being close to earth allows the Earth resonance users to use powers from plants to small eartquakes around them.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Earth.png"
-},
-{
-    "id":"RESONANCE-007",
-    "name":"Blood",
-    "effect":"One of the scariest resonances know to human kind. In constant need of blood to use its power, most of it's user go on murder sprees to keep the blood flowing. ",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Blood.png"
-},
-{
-    "id":"RESONANCE-008",
-    "name":"Summon",
-    "effect":"Summon resonanced people also called summoners can ask the aid of creatures weak and strong to fight in their stead.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/5220e9e61fca08a9f8a35d7df02d0df95766c96b/Summon.png"
-},
-{
-    "id":"RESONANCE-009",
-    "name":"Darkness",
-    "effect":"Those who tread into the dark never return and if they do , they wont be the same ever again.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Darkness.png"
-},
-{
-    "id":"RESONANCE-010",
-    "name":"NULL",
-    "effect":"No magical powers but these people excel in combat nonetheless, in each their own way.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/NULL.png"
-},
-{
-    "id":"RESONANCE-011",
-    "name":"Shadow",
-    "effect":"Magical creatures who have 1 objective, kill everything on sight.",
-    "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/SHADOW.png"
-}
+    {
+        "id": "RESONANCE-001",
+        "name": "Celestial",
+        "effect": "Crafty swordsmen who can use any type of elemental magic.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Celestial.png"
+    },
+    {
+        "id": "RESONANCE-002",
+        "name": "Fire",
+        "effect": "The power of fire burns within this persons heart. Mostly given to someone with a fiery passion.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Fire.png"
+    },
+    {
+        "id": "RESONANCE-003",
+        "name": "Lightning",
+        "effect": "Users who bear the Lightning resonance are mostly laid back but full of energy.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Lightning.png"
+    },
+    {
+        "id": "RESONANCE-004",
+        "name": "Water",
+        "effect": "Bearers of the element most found across the world, but mastering it is a different tale.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Water.png"
+    },
+    {
+        "id": "RESONANCE-005",
+        "name": "Poison",
+        "effect": "A most fitting trait for the toxic personalities amongs ourselves,one hit from this magic can be lethal.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Poison.png"
+    },
+    {
+        "id": "RESONANCE-006",
+        "name": "Earth",
+        "effect": "Being close to earth allows the Earth resonance users to use powers from plants to small eartquakes around them.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Earth.png"
+    },
+    {
+        "id": "RESONANCE-007",
+        "name": "Blood",
+        "effect": "One of the scariest resonances know to human kind. In constant need of blood to use its power, most of it's user go on murder sprees to keep the blood flowing. ",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Blood.png"
+    },
+    {
+        "id": "RESONANCE-008",
+        "name": "Summon",
+        "effect": "Summon resonanced people also called summoners can ask the aid of creatures weak and strong to fight in their stead.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Summon.png"
+    },
+    {
+        "id": "RESONANCE-009",
+        "name": "Darkness",
+        "effect": "Those who tread into the dark never return and if they do , they wont be the same ever again.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Darkness.png"
+    },
+    {
+        "id": "RESONANCE-010",
+        "name": "NULL",
+        "effect": "No magical powers but these people excel in combat nonetheless, in each their own way.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/NULL.png"
+    },
+    {
+        "id": "RESONANCE-011",
+        "name": "Shadow",
+        "effect": "Magical creatures who have 1 objective, kill everything on sight.",
+        "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/SHADOW.png"
+    }
 ]
