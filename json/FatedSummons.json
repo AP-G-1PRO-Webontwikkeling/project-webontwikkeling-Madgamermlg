@@ -1,0 +1,287 @@
+[
+    {
+    "id" : "FSCG-0001",
+    "name":"Noah",
+    "class":"Hero",
+    "description":"Living in a modernizing city he recently gained magical prowess",
+    "cardNumber":1,
+    "rarity":"Rare",
+    "secretArtType":false,
+    "skills":["Sword strike", "Resonance Blast"],
+    "ultimata":"Devine Retribution",
+    "resonance":{
+        "id":"RESONANCE-001",
+        "name":"Celestial",
+        "effect":"Crafty swordsmen who can use any type of elemental magic",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Celestial.png"
+    },
+    "affinity":"Apprentices of Justice",
+    "region":["Avelia", "Aphros"]
+ },
+ {
+    "id" : "FSCG-0002",
+    "name":"Noa",
+    "class":"Hero",
+    "description":"Living in a modernizing city she recently gained magical prowess",
+    "cardNumber":2,
+    "rarity":"Rare",
+    "secretArtType":false,
+    "skills":["Sword strike", "Resonance Blast"],
+    "ultimata":"Devine Retribution",
+    "resonance":{
+        "id":"RESONANCE-001",
+        "name":"Celestial",
+        "effect":"Crafty swordsmen who can use any type of elemental magic",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Celestial.png"
+    },
+    "affinity":"Apprentices of Justice",
+    "region":["Avelia", "Aphros"]
+ },
+ {
+    "id" : "FSCG-0003",
+    "name":"Sakura",
+    "class":"Hero",
+    "description":"A traveling katana wielding swordswoman from the far away region Hyotenka",
+    "cardNumber":3,
+    "rarity":"Uncommon",
+    "secretArtType":false,
+    "skills":["Slash of hope","Start of season"],
+    "ultimata":"Void Slash",
+    "resonance":{
+        "id":"Resonance-010",
+        "name":"NULL",
+        "effect":"No magical powers but these people excel in combat nonetheless, in each their own way.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/NULL.png"
+    },
+    "affinity":"Yeager Clan",
+    "region":["Hyotenka","Aphros"]
+ },
+  {
+    "id" : "FSCG-0004",
+    "name":"Zene",
+    "class":"Merchant?",
+    "description":"One day an adventurer the other a merchant, who knows what he will be tomorrow?",
+    "cardNumber":4,
+    "rarity":"Super Rare",
+    "secretArtType":true,
+    "skills":["Dagger stab", "Yoink"],
+    "ultimata":"Contract of Manipulation",
+    "resonance":{
+        "id":"RESONANCE-010",
+        "name":"NULL",
+        "effect":"No magical powers but these people excel in combat nonetheless, in each their own way.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/NULL.png"
+    },
+    "affinity":"Adventurers Guild",
+    "region":["Kahua Kahe City", "Aphros"]
+ },
+ {
+    "id" : "FSCG-0005",
+    "name":"Violet",
+    "class":"Witch",
+    "description":"A bewitching beauty turned evil. She wants to make to world kneel for her.",
+    "cardNumber":5,
+    "rarity":"Ultra Rare",
+    "secretArtType":true,
+    "skills":["Aura orb","Alluring kiss"],
+    "ultimata":"Eclipse Obliteration",
+    "resonance":{
+        "id":"RESONANCE-009",
+        "name":"Darkness",
+        "effect":"Those who tread into the dark never return and if they do , they wont be the same ever again.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Darkness.png"
+    },
+    "affinity":"Legions of Evil",
+    "region":["Riftland Reaches","Aphros"]
+ },
+ {
+    "id" : "FSCG-0006",
+    "name":"Groblin",
+    "class":"Enemy",
+    "description":"Annoying Little creatures that have zero sense of direction.",
+    "cardNumber":6,
+    "rarity":"Common",
+    "secretArtType":false,
+    "skills":["Hit","Charge"],
+    "ultimata":"Ravenous Rush",
+    "resonance":{
+        "id":"RESONANCE-011",
+        "name":"Shadow",
+        "effect":"Magical creatures who have 1 objective, kill everything on sight.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/SHADOW.png"
+    },
+    "affinity":"Legions of Evil",
+    "region":["Kahua Kahe Fields","Aphros"]
+ },
+ {
+    "id" : "FSCG-0007",
+    "name":"Zplash",
+    "class":"Merman",
+    "description":"Although Zplash is a merman you could almost never tell, he use transformation magic on his legs to walk across the land.",
+    "cardNumber":7,
+    "rarity":"uncommon",
+    "secretArtType":false,
+    "skills":["Trident swing","Fists of Triton"],
+    "ultimata":"Engulfing Tempest",
+    "resonance":{
+        "id":"RESONANCE-004",
+        "name":"Water",
+        "effect":"Bearers of the element most found across the world, but mastering it is a different tale.",
+        "resonanceIconURL":""
+    },
+    "affinity":"Merpeople",
+    "region":["Sacred Abyss","Aphros"]
+ },
+ {
+    "id" : "FSCG-0008",
+    "name":"Ms.Night",
+    "class":"Unknown",
+    "description":"She suddenly appeared with knowledge that looks to be from outside this world.",
+    "cardNumber":8,
+    "rarity":"Super Rare",
+    "secretArtType":true,
+    "skills":["Fiery bomb","That aint scary"],
+    "ultimata":"Ethereal Blaze",
+    "resonance":{
+        "id":"RESONANCE-002",
+        "name":"Fire",
+        "effect":"The power of fire burns within this persons heart. Mostly given to people with a fiery passion.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Fire.png"
+    },
+    "affinity":"Outerworlders",
+    "region":["Genalium","Aphros"]
+ },
+ {
+    "id" : "FSCG-0009",
+    "name":"Xendar",
+    "class":"Adventurer",
+    "description":"A lone adventurer, seeking allies along its way with no goal in mind",
+    "cardNumber":9,
+    "rarity":"Rare",
+    "secretArtType":false,
+    "skills":["Swift strike","C'mon guys!"],
+    "ultimata":"Terra Tremor",
+    "resonance":{
+        "id":"RESONANCE-006",
+        "name":"Earth",
+        "effect":"Being close to earth allows the Earth resonance users to use powers from plants to small eartquakes around them.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Earth.png"
+    },
+    "affinity":"Adventurers Guild",
+    "region":["Avelia","Aphros"]
+ },
+ {
+    "id" : "FSCG-0010",
+    "name":"The Nameless Swordsman",
+    "class":"Vagabond",
+    "description":"Once served a mighty emperor from a evil clan that this day no longer exists, now travelling the land protecting the innoncent.",
+    "cardNumber":10,
+    "rarity":"Super Rare",
+    "secretArtType":true,
+    "skills":["Rising Slash","Slashes of Vengeance"],
+    "ultimata":"Crimson Requiem",
+    "resonance":{
+        "id":"RESONANCE-007",
+        "name":"Blood",
+        "effect":"One of the scariest resonances know to human kind. In constant need of blood to use its power, most of it's user go on murder sprees to keep the blood flowing. ",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Blood.png"
+    },
+    "affinity":"Chaos Clan",
+    "region":["Hyotenka","Aphros"]
+ },
+ {
+    "id" : "FSCG-0011",
+    "name":"Geara",
+    "class":"Mechanic",
+    "description":"An elf girl who loves tinkering, she even made her own weapon that being a splinter minigun.",
+    "cardNumber":11,
+    "rarity":"Common",
+    "secretArtType":false,
+    "skills":["Minigun MK.III","GoGo OwlBomb!"],
+    "ultimata":"Thunderbolt Barrage MK.IV",
+    "resonance":{
+        "id":"RESONANCE-003",
+        "name":"Lightning",
+        "effect":"Users who bear the Lightning resonance are mostly laid back but full of energy.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Lightning.png"
+    },
+    "affinity":"Elf Village",
+    "region":["Foresta Vivace","Aphros"]
+ },
+ {
+    "id" : "FSCG-0012",
+    "name":"Mira",
+    "class":"Assasin",
+    "description":"A sly dark elf out to kill anyone who has a bounty on their head, once she has a target she wont hold back.",
+    "cardNumber":12,
+    "rarity":"Uncommon",
+    "secretArtType":false,
+    "skills":["Assasin's Stab","Shadow void"],
+    "ultimata":"Veil of Shadows",
+    "resonance":{
+        "id":"RESONANCE-009",
+        "name":"Darkness",
+        "effect":"Those who tread into the dark never return and if they do , they wont be the same ever again.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Darkness.png"
+    },
+    "affinity":"Dark Elf Village",
+    "region":["Foresta Oscura","Aphros"]
+ },
+ {
+    "id" : "FSCG-0013",
+    "name":"ZeroZero",
+    "class":"Captain",
+    "description":"A captain of the mighty ship Ertree, he owns a vast and strong crew. No one knows his real name. Say the wrong words and your remaines float with the merpeople.",
+    "cardNumber":13,
+    "rarity":"Secret Rare",
+    "secretArtType":true,
+    "skills":["One man's hook","Another one's death"],
+    "ultimata":"Bloodstorm",
+    "resonance":{
+        "id":"RESONANCE-007",
+        "name":"Blood",
+        "effect":"One of the scariest resonances know to human kind. In constant need of blood to use its power, most of it's user go on murder sprees to keep the blood flowing. ",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/Blood.png"
+    },
+    "affinity":"Ertree crew",
+    "region":["Crestwave Expanse","Aphros"]
+ },
+ {
+    "id" : "FSCG-0014",
+    "name":"Slime",
+    "class":"Enemy",
+    "description":"A monster who can 'summon' more of itself by making squishy sounds.",
+    "cardNumber":14,
+    "rarity":"Common",
+    "secretArtType":false,
+    "skills":["Jump","Fuse"],
+    "ultimata":"Duplication",
+    "resonance":{
+        "id":"RESONANCE-011",
+        "name":"Shadow",
+        "effect":"Magical creatures who have 1 objective, kill everything on sight.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/SHADOW.png"
+    },
+    "affinity":"Legions of Evil",
+    "region":["Ruins of Past","Aphros"]
+ },
+ {
+    "id" : "FSCG-0015",
+    "name":"Mummy",
+    "class":"Enemy",
+    "description":"Walking corpses searching their promised future that will never happen.",
+    "cardNumber":15,
+    "rarity":"Common",
+    "secretArtType":false,
+    "skills":["Whip lash","Groan"],
+    "ultimata":"Mist of Sand",
+    "resonance":{
+        "id":"RESONANCE-011",
+        "name":"Shadow",
+        "effect":"Magical creatures who have 1 objective, kill everything on sight.",
+        "resonanceIconURL":"https://github.com/Madgamermlg/AP-G1-WEB-PROJECT/blob/ca5738461a39b5375b90fbeb267f409456852d36/SHADOW.png"
+    },
+    "affinity":"Legions of Evil",
+    "region":["Sands of Fate","Aphros"]
+ }
+]
