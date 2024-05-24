@@ -17,5 +17,4 @@ export interface Resonance {
     id: string
     name: string
     effect: string
-    resonanceIconURL: string
 }

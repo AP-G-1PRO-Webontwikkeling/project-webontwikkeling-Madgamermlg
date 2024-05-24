@@ -4,6 +4,7 @@
         "name": "Noah",
         "class": "Hero",
         "description": "Living in a modernizing city he recently gained magical prowess",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Noah-card.png",
         "cardNumber": 1,
         "rarity": "Rare",
         "secretArtType": false,
@@ -15,8 +16,7 @@
         "resonance": {
             "id": "RESONANCE-001",
             "name": "Celestial",
-            "effect": "Crafty swordsmen who can use any type of elemental magic",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Celestial.png"
+            "effect": "Crafty swordsmen who can use any type of elemental magic"
         },
         "affinity": "Apprentices of Justice",
         "region": [
@@ -29,6 +29,7 @@
         "name": "Noa",
         "class": "Hero",
         "description": "Living in a modernizing city she recently gained magical prowess",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Noa-card.png",
         "cardNumber": 2,
         "rarity": "Rare",
         "secretArtType": false,
@@ -40,8 +41,7 @@
         "resonance": {
             "id": "RESONANCE-001",
             "name": "Celestial",
-            "effect": "Crafty swordsmen who can use any type of elemental magic",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Celestial.png"
+            "effect": "Crafty swordsmen who can use any type of elemental magic"
         },
         "affinity": "Apprentices of Justice",
         "region": [
@@ -54,6 +54,7 @@
         "name": "Sakura",
         "class": "Hero",
         "description": "A traveling katana wielding swordswoman from the far away region Hyotenka",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Sakura-card.png",
         "cardNumber": 3,
         "rarity": "Uncommon",
         "secretArtType": false,
@@ -65,8 +66,7 @@
         "resonance": {
             "id": "Resonance-010",
             "name": "NULL",
-            "effect": "No magical powers but these people excel in combat nonetheless, in each their own way.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/NULL.png"
+            "effect": "No magical powers but these people excel in combat nonetheless, in each their own way."
         },
         "affinity": "Yeager Clan",
         "region": [
@@ -79,6 +79,7 @@
         "name": "Zene",
         "class": "Merchant?",
         "description": "One day an adventurer the other a merchant, who knows what he will be tomorrow?",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Zene-card.png",
         "cardNumber": 4,
         "rarity": "Super Rare",
         "secretArtType": true,
@@ -90,8 +91,7 @@
         "resonance": {
             "id": "RESONANCE-010",
             "name": "NULL",
-            "effect": "No magical powers but these people excel in combat nonetheless, in each their own way.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/NULL.png"
+            "effect": "No magical powers but these people excel in combat nonetheless, in each their own way."
         },
         "affinity": "Adventurers Guild",
         "region": [
@@ -104,6 +104,7 @@
         "name": "Violet",
         "class": "Witch",
         "description": "A bewitching beauty turned evil. She wants to make to world kneel for her.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Violet-card.png",
         "cardNumber": 5,
         "rarity": "Ultra Rare",
         "secretArtType": true,
@@ -115,8 +116,7 @@
         "resonance": {
             "id": "RESONANCE-009",
             "name": "Darkness",
-            "effect": "Those who tread into the dark never return and if they do , they wont be the same ever again.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Darkness.png"
+            "effect": "Those who tread into the dark never return and if they do , they wont be the same ever again."
         },
         "affinity": "Legions of Evil",
         "region": [
@@ -129,6 +129,7 @@
         "name": "Groblin",
         "class": "Enemy",
         "description": "Annoying Little creatures that have zero sense of direction.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Groblin-card.png",
         "cardNumber": 6,
         "rarity": "Common",
         "secretArtType": false,
@@ -140,8 +141,7 @@
         "resonance": {
             "id": "RESONANCE-011",
             "name": "Shadow",
-            "effect": "Magical creatures who have 1 objective, kill everything on sight.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/SHADOW.png"
+            "effect": "Magical creatures who have 1 objective, kill everything on sight."
         },
         "affinity": "Legions of Evil",
         "region": [
@@ -154,6 +154,7 @@
         "name": "Zplash",
         "class": "Merman",
         "description": "Although Zplash is a merman you could almost never tell, he use transformation magic on his legs to walk across the land.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Zplash-card.png",
         "cardNumber": 7,
         "rarity": "uncommon",
         "secretArtType": false,
@@ -165,8 +166,7 @@
         "resonance": {
             "id": "RESONANCE-004",
             "name": "Water",
-            "effect": "Bearers of the element most found across the world, but mastering it is a different tale.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Water.png"
+            "effect": "Bearers of the element most found across the world, but mastering it is a different tale."
         },
         "affinity": "Merpeople",
         "region": [
@@ -179,6 +179,7 @@
         "name": "Ms.Night",
         "class": "Unknown",
         "description": "She suddenly appeared with knowledge that looks to be from outside this world.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Night-card.png",
         "cardNumber": 8,
         "rarity": "Super Rare",
         "secretArtType": true,
@@ -190,8 +191,7 @@
         "resonance": {
             "id": "RESONANCE-002",
             "name": "Fire",
-            "effect": "The power of fire burns within this persons heart. Mostly given to people with a fiery passion.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Fire.png"
+            "effect": "The power of fire burns within this persons heart. Mostly given to people with a fiery passion."
         },
         "affinity": "Outerworlders",
         "region": [
@@ -204,6 +204,7 @@
         "name": "Xendar",
         "class": "Adventurer",
         "description": "A lone adventurer, seeking allies along its way with no goal in mind",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Xendar-card.png",
         "cardNumber": 9,
         "rarity": "Rare",
         "secretArtType": false,
@@ -215,8 +216,7 @@
         "resonance": {
             "id": "RESONANCE-006",
             "name": "Earth",
-            "effect": "Being close to earth allows the Earth resonance users to use powers from plants to small eartquakes around them.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Earth.png"
+            "effect": "Being close to earth allows the Earth resonance users to use powers from plants to small eartquakes around them."
         },
         "affinity": "Adventurers Guild",
         "region": [
@@ -229,6 +229,7 @@
         "name": "The Nameless Swordsman",
         "class": "Vagabond",
         "description": "Once served a mighty emperor from a evil clan that this day no longer exists, now travelling the land protecting the innoncent.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Nameless%20Swordsman-card.png",
         "cardNumber": 10,
         "rarity": "Super Rare",
         "secretArtType": true,
@@ -240,8 +241,7 @@
         "resonance": {
             "id": "RESONANCE-007",
             "name": "Blood",
-            "effect": "One of the scariest resonances know to human kind. In constant need of blood to use its power, most of it's user go on murder sprees to keep the blood flowing. ",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Blood.png"
+            "effect": "One of the scariest resonances know to human kind. In constant need of blood to use its power, most of it's user go on murder sprees to keep the blood flowing. "
         },
         "affinity": "Chaos Clan",
         "region": [
@@ -254,6 +254,7 @@
         "name": "Geara",
         "class": "Mechanic",
         "description": "An elf girl who loves tinkering, she even made her own weapon that being a splinter minigun.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Geara-card.png",
         "cardNumber": 11,
         "rarity": "Common",
         "secretArtType": false,
@@ -265,8 +266,7 @@
         "resonance": {
             "id": "RESONANCE-003",
             "name": "Lightning",
-            "effect": "Users who bear the Lightning resonance are mostly laid back but full of energy.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Lightning.png"
+            "effect": "Users who bear the Lightning resonance are mostly laid back but full of energy."
         },
         "affinity": "Elf Village",
         "region": [
@@ -279,6 +279,7 @@
         "name": "Mira",
         "class": "Assasin",
         "description": "A sly dark elf out to kill anyone who has a bounty on their head, once she has a target she wont hold back.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Mira-card.png",
         "cardNumber": 12,
         "rarity": "Uncommon",
         "secretArtType": false,
@@ -290,8 +291,7 @@
         "resonance": {
             "id": "RESONANCE-009",
             "name": "Darkness",
-            "effect": "Those who tread into the dark never return and if they do , they wont be the same ever again.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Darkness.png"
+            "effect": "Those who tread into the dark never return and if they do , they wont be the same ever again."
         },
         "affinity": "Dark Elf Village",
         "region": [
@@ -304,6 +304,7 @@
         "name": "ZeroZero",
         "class": "Captain",
         "description": "A captain of the mighty ship Ertree, he owns a vast and strong crew. No one knows his real name. Say the wrong words and your remaines float with the merpeople.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/ZeroZero-card.png",
         "cardNumber": 13,
         "rarity": "Secret Rare",
         "secretArtType": true,
@@ -315,8 +316,7 @@
         "resonance": {
             "id": "RESONANCE-007",
             "name": "Blood",
-            "effect": "One of the scariest resonances know to human kind. In constant need of blood to use its power, most of it's user go on murder sprees to keep the blood flowing. ",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/Blood.png"
+            "effect": "One of the scariest resonances know to human kind. In constant need of blood to use its power, most of it's user go on murder sprees to keep the blood flowing. "
         },
         "affinity": "Ertree crew",
         "region": [
@@ -329,6 +329,7 @@
         "name": "Slime",
         "class": "Enemy",
         "description": "A monster who can 'summon' more of itself by making squishy sounds.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Slime-card.png",
         "cardNumber": 14,
         "rarity": "Common",
         "secretArtType": false,
@@ -340,8 +341,7 @@
         "resonance": {
             "id": "RESONANCE-011",
             "name": "Shadow",
-            "effect": "Magical creatures who have 1 objective, kill everything on sight.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/SHADOW.png"
+            "effect": "Magical creatures who have 1 objective, kill everything on sight."
         },
         "affinity": "Legions of Evil",
         "region": [
@@ -354,6 +354,7 @@
         "name": "Mummy",
         "class": "Enemy",
         "description": "Walking corpses searching their promised future that will never happen.",
+        "image": "https://raw.githubusercontent.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/main/images/Mummy-card.png",
         "cardNumber": 15,
         "rarity": "Common",
         "secretArtType": false,
@@ -365,8 +366,7 @@
         "resonance": {
             "id": "RESONANCE-011",
             "name": "Shadow",
-            "effect": "Magical creatures who have 1 objective, kill everything on sight.",
-            "resonanceIconURL": "https://github.com/AP-G-1PRO-Webontwikkeling/project-webontwikkeling-Madgamermlg/blob/main/images/SHADOW.png"
+            "effect": "Magical creatures who have 1 objective, kill everything on sight."
         },
         "affinity": "Legions of Evil",
         "region": [
