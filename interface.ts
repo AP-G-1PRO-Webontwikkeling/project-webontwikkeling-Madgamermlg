@@ -1,8 +1,9 @@
-export interface Root {
+export interface FatedSummons {
     id: string
     name: string
     class: string
     description: string
+    image: string
     cardNumber: number
     rarity: string
     secretArtType: boolean
