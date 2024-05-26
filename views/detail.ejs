@@ -1,0 +1,97 @@
+<%- include("partials/head") %>
+<body>
+    <section class="image-grid">
+        <figure class="card" id="card-container">
+            <img class="shine" id="cardshine" src="/assets/images/Geara-card.png" alt="Image 1">
+            <figcaption>
+                <div class="card-info">
+                    <div class="row">
+                        <div class="label">Name:</div>
+                        <div class="value">Geara</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">Resonance:</div>
+                        <div class="value">Lightning</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">Card id:</div>
+                        <div class="value">001</div>
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+    </section>
+
+    <style>
+        .card {
+            position: relative;
+            transition: transform 0.3s;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .shine {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.4), transparent);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 1; 
+        }
+
+        .card:hover .shine {
+            opacity: 1;
+        }
+
+        #cardshine {
+            position: relative;
+            z-index: 2; 
+            transition: transform 0.3s;
+        }
+
+        .linear-shine {
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 1; 
+        }
+
+        .card:hover .linear-shine {
+            opacity: 1;
+        }
+    </style>
+
+    <script>
+        const card = document.getElementById('cardshine');
+        const cardContainer = document.getElementById('card-container');
+        const shine = document.querySelector('.shine');
+        const linearShine = document.createElement('div');
+        linearShine.classList.add('linear-shine');
+        cardContainer.appendChild(linearShine);
+
+        cardContainer.addEventListener('mousemove', function(event) {
+            const rect = cardContainer.getBoundingClientRect();
+            const offsetX = (event.clientX - rect.left) / rect.width - 0.5;
+            const offsetY = (event.clientY - rect.top) / rect.height - 0.5;
+
+            card.style.transform = `rotateX(${offsetY * 10}deg) rotateY(${offsetX * 10}deg) translateZ(20px)`;
+            shine.style.background = `radial-gradient(circle at ${event.offsetX}px ${event.offsetY}px, rgba(255, 255, 255, 0.4), transparent)`;
+        });
+
+        cardContainer.addEventListener('mouseleave', function() {
+            card.style.transform = '';
+            shine.style.opacity = 0;
+            linearShine.style.opacity = 0;
+        });
+    </script>
+</body>
+</html>

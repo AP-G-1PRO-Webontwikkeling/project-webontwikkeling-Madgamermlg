@@ -1,13 +1,90 @@
 <%- include("partials/head") %>
 <body>
+    <p>Zoek op naam:</p>
+    <input type="text" id="searchInput" placeholder="Search...">    
+    <label for="sortCriteria">Sorteer op:</label>
+    <select id="sortCriteria">
+        <option value="nameAsc">Naam (A-Z)</option>
+        <option value="nameDesc">Naam (Z-A)</option>
+        <option value="cardNumberAsc">Kaart nummer (Oplopend)</option>
+        <option value="cardNumberDesc">Kaart nummer (Aflopend)</option>
+    </select>
+    <button id="sortButton">Sorteer</button>
     <section class="image-grid">
-        <img src="/assets/images/Geara-card.png" alt="Image 1">
-        <img src="/assets/images/Slime-card.png" alt="Image 2">
-        <img src="/assets/images/Night-card.png" alt="Image 3">
-        <img src="/assets/images/Noah-card.png" alt="Image 4">
-        <img src="/assets/images/Sakura-card.png" alt="Image 4">
-        <img src="/assets/images/Xendar-card.png" alt="Image 4">
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Artwork</th>
+                    <th>Naam</th>
+                    <th>Beschrijving</th>
+                    <th>Skills</th>
+                    <th>Kaart nummer</th>
+                    <th>id</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for (const FatedSummons of cards){ %> 
+                    <%- include('partials/object.ejs', { FatedSummons }); %> 
+                <% } %>
+            </tbody>
+        </table>
     </section>
+    <script>
+        function handleSearch() {
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
+            const rows = document.querySelectorAll('#dataTable tbody tr');
+
+            rows.forEach(row => {
+                const nameCell = row.querySelector('td:nth-child(2)'); 
+                if (nameCell) {
+                    const nameText = nameCell.textContent.toLowerCase();
+                    if (nameText.includes(searchInput)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                }
+            });
+        }
+
      
+        function handleSort() {
+            const table = document.getElementById('dataTable');
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            const sortCriteria = document.getElementById('sortCriteria').value;
+
+            rows.sort((a, b) => {
+                let valueA, valueB;
+                switch (sortCriteria) {
+                    case 'nameAsc':
+                        valueA = a.querySelector('td:nth-child(2)').textContent.toLowerCase();
+                        valueB = b.querySelector('td:nth-child(2)').textContent.toLowerCase();
+                        return valueA.localeCompare(valueB);
+                    case 'nameDesc':
+                        valueA = a.querySelector('td:nth-child(2)').textContent.toLowerCase();
+                        valueB = b.querySelector('td:nth-child(2)').textContent.toLowerCase();
+                        return valueB.localeCompare(valueA);
+                    case 'cardNumberAsc':
+                        valueA = parseInt(a.querySelector('td:nth-child(5)').textContent, 10);
+                        valueB = parseInt(b.querySelector('td:nth-child(5)').textContent, 10);
+                        return valueA - valueB;
+                    case 'cardNumberDesc':
+                        valueA = parseInt(a.querySelector('td:nth-child(5)').textContent, 10);
+                        valueB = parseInt(b.querySelector('td:nth-child(5)').textContent, 10);
+                        return valueB - valueA;
+                    default:
+                        return 0;
+                }
+            });
+
+            tbody.innerHTML = '';
+            rows.forEach(row => tbody.appendChild(row));
+        }
+
+        document.getElementById('searchInput').addEventListener('input', handleSearch);
+
+        document.getElementById('sortButton').addEventListener('click', handleSort);
+    </script>
 </body>
 </html>
