@@ -37,7 +37,6 @@
             height: 100%;
             background: radial-gradient(circle, rgba(255, 255, 255, 0.4), transparent);
             pointer-events: none;
-            opacity: 0;
             transition: opacity 0.3s;
             z-index: 1; 
         }
@@ -52,22 +51,7 @@
             transition: transform 0.3s;
         }
 
-        .linear-shine {
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
-            pointer-events: none;
-            opacity: 0;
-            transition: opacity 0.3s;
-            z-index: 1; 
-        }
-
-        .card:hover .linear-shine {
-            opacity: 1;
-        }
+    
     </style>
 
     <script>
@@ -81,16 +65,10 @@
         cardContainer.addEventListener('mousemove', function(event) {
             const rect = cardContainer.getBoundingClientRect();
             const offsetX = (event.clientX - rect.left) / rect.width - 0.5;
-            const offsetY = (event.clientY - rect.top) / rect.height - 0.5;
+            const offsetY = (event.clientY - rect.top) / rect.height - 2.5;
 
             card.style.transform = `rotateX(${offsetY * 10}deg) rotateY(${offsetX * 10}deg) translateZ(20px)`;
             shine.style.background = `radial-gradient(circle at ${event.offsetX}px ${event.offsetY}px, rgba(255, 255, 255, 0.4), transparent)`;
-        });
-
-        cardContainer.addEventListener('mouseleave', function() {
-            card.style.transform = '';
-            shine.style.opacity = 0;
-            linearShine.style.opacity = 0;
         });
     </script>
 </body>

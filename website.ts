@@ -16,6 +16,9 @@ async function main() {
     app.get("/cards", (req, res) => {
         res.render("cards", { cards });
     });
+    app.get("/detail", (req, res) => {
+        res.render("detail");
+    });
     app.listen(app.get("port"), () => {
         console.log(`Server is running on http://localhost:${app.get("port")}`);
     })
